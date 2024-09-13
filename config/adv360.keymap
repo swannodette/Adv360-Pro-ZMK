@@ -38,6 +38,20 @@
             bindings = <&kp ENTER>;
             key-positions = <30 31>;
         };
+
+        Undo {
+            bindings = <&xc_undo>;
+            key-positions = <48 49>;
+        };
+    };
+
+    macros {
+        xc_undo: xc_undo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(MINUS))>;
+            label = "XC_UNDO";
+        };
     };
 
     keymap {
