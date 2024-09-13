@@ -43,6 +43,11 @@
             bindings = <&xc_undo>;
             key-positions = <48 49>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
