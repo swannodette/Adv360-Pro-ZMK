@@ -129,7 +129,7 @@
 
         layer_NAV {
             bindings = <
-&trans  &trans  &kp C_PREVIOUS  &trans          &kp C_NEXT       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp K_PREVIOUS  &trans          &kp K_NEXT       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp PG_UP       &kp UP_ARROW    &kp HOME         &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp PG_DN       &trans          &kp END          &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
