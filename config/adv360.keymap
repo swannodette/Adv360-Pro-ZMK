@@ -72,6 +72,20 @@
             bindings = <&kp LS(LC(MINUS))>;
             label = "XC_UNDO";
         };
+
+        forward: forward {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(RIGHT_BRACKET)>;
+            label = "FORWARD";
+        };
+
+        back: back {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LEFT_BRACKET)>;
+            label = "BACK";
+        };
     };
 
     keymap {
