@@ -58,6 +58,11 @@
             bindings = <&kp LSHIFT>;
             key-positions = <32 31>;
         };
+
+        Command {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <50 51>;
+        };
     };
 
     macros {
