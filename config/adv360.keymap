@@ -63,6 +63,11 @@
             bindings = <&kp LEFT_COMMAND>;
             key-positions = <50 51>;
         };
+
+        Option {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
