@@ -46,7 +46,7 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <31 50>;
+            key-positions = <49 32>;
         };
 
         Control {
@@ -71,7 +71,7 @@
 
         Escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <49 32>;
+            key-positions = <31 50>;
         };
     };
 
