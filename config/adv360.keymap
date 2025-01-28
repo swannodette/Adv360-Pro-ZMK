@@ -73,6 +73,26 @@
             bindings = <&kp ESCAPE>;
             key-positions = <31 50>;
         };
+
+        ControlR {
+            bindings = <&kp LCTRL>;
+            key-positions = <55 56>;
+        };
+
+        ShiftR {
+            bindings = <&kp LSHIFT>;
+            key-positions = <41 42>;
+        };
+
+        CommandR {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <54 55>;
+        };
+
+        OptionR {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <40 41>;
+        };
     };
 
     macros {
