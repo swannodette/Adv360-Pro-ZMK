@@ -93,6 +93,16 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <40 41>;
         };
+
+        TabL {
+            bindings = <&kp TAB>;
+            key-positions = <18 19>;
+        };
+
+        TabR {
+            bindings = <&kp TAB>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
