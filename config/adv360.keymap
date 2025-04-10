@@ -50,7 +50,7 @@
         };
 
         Control {
-            bindings = <&kp LCTRL>;
+            bindings = <&sk LCTRL>;
             key-positions = <49 50>;
         };
 
@@ -60,12 +60,12 @@
         };
 
         Command {
-            bindings = <&kp LEFT_COMMAND>;
+            bindings = <&sk LEFT_COMMAND>;
             key-positions = <50 51>;
         };
 
         Option {
-            bindings = <&kp LEFT_ALT>;
+            bindings = <&sk LEFT_ALT>;
             key-positions = <32 33>;
         };
 
@@ -75,22 +75,22 @@
         };
 
         ControlR {
-            bindings = <&kp LCTRL>;
+            bindings = <&sk LCTRL>;
             key-positions = <55 56>;
         };
 
         ShiftR {
-            bindings = <&kp LSHIFT>;
+            bindings = <&sk LSHIFT>;
             key-positions = <41 42>;
         };
 
         CommandR {
-            bindings = <&kp LEFT_COMMAND>;
+            bindings = <&sk LEFT_COMMAND>;
             key-positions = <54 55>;
         };
 
         OptionR {
-            bindings = <&kp LEFT_ALT>;
+            bindings = <&sk LEFT_ALT>;
             key-positions = <40 41>;
         };
 
@@ -193,11 +193,11 @@
 
         layer_STICKY {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &sk LEFT_ALT          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                     &sk LEFT_COMMAND      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans          &trans  &trans     &trans                &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &sk LEFT_ALT          &sk RALT           &sk RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                     &sk LEFT_COMMAND      &sk RIGHT_COMMAND                     &trans  &trans  &trans  &trans  &trans  &sk RIGHT_SHIFT
+&trans          &trans  &trans  &trans  &trans          &trans  &trans     &trans                &trans             &trans     &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
