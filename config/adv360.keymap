@@ -208,11 +208,11 @@
 
         layer_STICKY {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &sk LEFT_ALT          &sk RALT           &sk RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                     &sk LEFT_COMMAND      &sk RIGHT_COMMAND                     &trans  &trans  &trans  &trans  &trans  &sk RIGHT_SHIFT
-&trans          &trans  &trans  &trans  &trans          &trans  &trans     &trans                &trans             &trans     &trans          &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                   &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans                                                                   &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &sk LEFT_ALT          &sk RALT           &sk RCTRL    &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                     &sk LEFT_COMMAND      &sk RIGHT_COMMAND                              &trans  &trans  &trans  &trans  &trans  &sk RIGHT_SHIFT
+&trans          &trans  &trans  &trans  &trans          &trans  &trans     &trans                &trans             &lt 4 SPACE  &kp BACKSPACE          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
