@@ -116,7 +116,7 @@
 
         UndoR {
             bindings = <&xc_undo>;
-            key-positions = <48 49 56 57>;
+            key-positions = <56 57>;
         };
     };
 
